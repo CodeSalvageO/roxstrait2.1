@@ -4,4 +4,6 @@ value2 = button.form.save4.value;
 button.onclick = function() {
     foo(value);
     foo(value2);
+    document.write(value);
+    document.write(value2);
 }
